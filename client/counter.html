@@ -1,0 +1,24 @@
+<template name="counter">
+
+
+
+
+{{#each returnTimer}}
+
+<div class="timer">{{roundTimer}}</div>
+
+{{/each}}
+
+<br />
+
+{{#each returnResponses}}
+
+<div class="userSubmission">{{createdBy}}:{{userInput}}</div>
+
+
+
+<br />
+
+
+{{/each}}
+</template>

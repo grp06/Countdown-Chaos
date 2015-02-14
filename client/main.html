@@ -1,0 +1,17 @@
+<template name="main">
+
+	<div class="ui segment">
+		{{#if currentUser}}
+		<div class="ui input enterSomething"><input type="text" class="userInput" placeholder="Enter Some Text"></div>
+
+		<div class="ui button submit">Submit</div>
+
+		{{else}}
+		
+{{>login}}
+		{{/if}}
+
+
+
+		</div>
+</template>
